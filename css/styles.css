@@ -599,3 +599,40 @@ p {
 .social-icons ul li a i {
     font-size: 20px;
 }
+
+/* ----------- Footer ---------------*/
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom  : 35px;
+    padding-top     : 35px;
+    border-bottom   : 3px solid #129CF3;
+}
+
+#copy-right {
+    width: 50%;
+}
+
+#copy-right p {
+    color      : #8C8BBA;
+    font-weight: 600;
+    font-size  : 15px;
+}
+
+#copy-right p a {
+    text-decoration: none;
+    color          : #129CF3;
+}
+
+.scroll-top {
+    text-align: right;
+}
+
+.scroll-top a {
+    background-color: #129CF3;
+    padding         : 20px 25px;
+}
+
+.scroll-top a i {
+    color    : #fff;
+    font-size: 25px;
+}
