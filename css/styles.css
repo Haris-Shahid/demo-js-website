@@ -188,6 +188,7 @@ p {
 
 .about-iphone img {
     margin-top: 8px;
+    width     : 100%;
 }
 
 .choose-us-title {
@@ -646,10 +647,6 @@ p {
     padding-bottom  : 35px;
     padding-top     : 35px;
     border-bottom   : 3px solid #129CF3;
-}
-
-#copy-right {
-    width: 50%;
 }
 
 #copy-right p {

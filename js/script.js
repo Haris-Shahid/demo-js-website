@@ -98,3 +98,41 @@ $(document).ready(function () {
         });
     })
 })
+
+$(window).ready(function () {
+    "use strict";
+
+    setInterval(function () {
+        "use strict";
+
+        var windowHei = $(window).height();
+        var containerHei = $(".header-container").height();
+        var padTop = windowHei - containerHei;
+        $(".header-container").css({
+            "padding-top": Math.round(padTop / 2) + 'px',
+            "padding-bottom": Math.round(padTop / 2) + 'px'
+        })
+    }, 10)
+})
+
+$(window).ready(function () {
+    $('.bxslider').bxSlider({
+        slideWidth: 292.5,
+        auto: true,
+        minSlides: 1,
+        maxSlides: 3,
+        slideMargin: 45
+    })
+})
+
+$(window).ready(function () {
+    $('.counter-num').counterUp({
+        delay: 10,
+        time: 2000
+    })
+})
+$(window).ready(function () {
+    "use strict";
+
+    new WOW().init();
+})
